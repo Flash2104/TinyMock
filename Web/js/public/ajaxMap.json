@@ -1,0 +1,48 @@
+[
+  {
+    "className": "Case",
+    "methodName": "Complete",
+    "parameters": [
+      {
+        "name": "caseId",
+        "typeName": "System.String"
+      }
+    ],
+    "url": "Case/Complete"
+  },
+  {
+    "className": "Case",
+    "methodName": "Reopen",
+    "parameters": [
+      {
+        "name": "caseId",
+        "typeName": "System.String"
+      }
+    ],
+    "url": "Case/Reopen"
+  },
+  {
+    "className": "Mock",
+    "methodName": "Execute",
+    "httpMethod": "POST",
+    "parameters": [
+      {
+        "name": "text",
+        "typeName": "System.String"
+      }
+    ],
+    "url": "Mock/Execute"
+  },
+  {
+    "className": "Mock",
+    "methodName": "ExecuteVoice",
+    "httpMethod": "POST",
+    "parameters": [
+      {
+        "name": "url",
+        "typeName": "System.String"
+      }
+    ],
+    "url": "Mock/ExecuteVoice"
+  }
+]

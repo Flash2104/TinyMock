@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>TINYmock</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @media screen and (max-width: 500px) {
+                body,input,label,select {
+                    font: normal 1rem/1.4 OpenSans,sans-serif !important;
+                }
+
+                .editor {
+                    height: 70px;
+                }
+
+                .layout__button-view-text {
+                    padding: 10px !important;
+                }
+
+                .layout__button-view {
+                    display: block;
+                    min-height: 48px;
+                }
+
+                .layout__horizontal-layout-list-item {
+                    flex: 0;
+                }
+
+                .textarea {
+                    padding: 0 0 20px;
+                    line-height: 1;
+                    font: normal 2rem/3.4 OpenSans,sans-serif;
+                }
+
+                .demo-content {
+                    padding: 0px 20px !important;
+                }
+
+                .layout__horizontal-layout-list-item {
+                    flex: 0;
+                }
+            }
+        </style>
+	</head>
+	<body>
+        <div class="visually-hidden">
+            {{{htmlWebpackPlugin.options.svgSprites}}}
+        </div>
+		<div class="js-header-region header-container"></div>
+		<div class="js-content-region content-container"></div>
+	</body>
+</html>
